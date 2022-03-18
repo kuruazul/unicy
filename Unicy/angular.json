@@ -105,6 +105,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "Unicy:build:production",
+            "firebaseProject": "unicy-344402",
+            "firebaseHostingSite": "unicy-344402"
+          }
         }
       }
     }

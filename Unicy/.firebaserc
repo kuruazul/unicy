@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "unicy-344402"
+  },
+  "targets": {
+    "unicy-344402": {
+      "hosting": {
+        "Unicy": [
+          "unicy-344402"
+        ]
+      }
+    }
+  }
+}
