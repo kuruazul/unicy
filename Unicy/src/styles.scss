@@ -49,6 +49,18 @@ body {
     right: 0;
 }
 
+@media screen and (max-width: 1100px) {
+    .icon-bar {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 100;
+        right: auto;
+    }
+}
+
 
 /* Style the icon bar links */
 
