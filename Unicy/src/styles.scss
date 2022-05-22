@@ -1,4 +1,89 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    height: 100%;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Brother-Unicy;
+    letter-spacing: 2px;
+}
+
+@font-face {
+    font-family: Brother-Unicy;
+    src: url(assets/font/Brother2.ttf) format('truetype');
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Brother, "Helvetica Neue", sans-serif;
+}
+
+//Morado
+//52006a
+//Naranja
+//FFA900
+.color-p {
+    color: #52006a;
+    background-color: #FFA900;
+}
+
+.color-s {
+    color: #FFA900;
+    background-color: #52006a;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 100;
+    right: 0;
+}
+
+
+/* Style the icon bar links */
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Style the social media icons with color, if you want */
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.instagram {
+    background: #52006a;
+    color: white;
+}
+
+.mobile {
+    background: #FFA900;
+    color: white;
+}
+
+.whatsapp {
+    background: #25D366;
+    color: white;
+}

@@ -1,36 +1,394 @@
-body,
-html {
-    height: 100%;
+h1 {
+    font-size: 4.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
-
-/* The hero image */
-
-.hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.bbva.com/wp-content/uploads/2018/06/fintech-tecnologia-innovacion-digital-blockchain-bbva_opt-1920x808.jpg");
-    /* Set a specific height */
-    height: 100%;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.icon {
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-
-/* Place text in the middle of the image */
-
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-a {
-    color: black;
+.icon1 {
+    height: 40px;
     margin: 10px;
+}
+
+.icon2 {
+    height: 50px;
+}
+
+color-p {
+    background-color: #52006a;
+}
+
+.carousel-inner {
+    background-color: #52006a;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.uni-p {
+    font-size: 1.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+}
+
+.btn {
+    font-family: Brother;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #52006a;
+    background-color: #FFA900;
+}
+
+.marketing {
+    padding-top: 100px;
+}
+
+.servicios {
+    background-color: #FFA900;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23FFA900' viewBox='0 0 8 8'><path d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/></svg>");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23FFA900' viewBox='0 0 8 8'><path d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/></svg>");
+}
+
+.img-1 {
+    width: 50%;
+    height: auto;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#acerca h1 {
+    font-size: 4.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#acerca h2 {
+    font-size: 2.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#acerca h2 .titulo-c {
+    font-size: 2.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#acerca .titulo-c {
+    font-size: 2.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: #52006a;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#acerca p {
+    font-size: 1.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#acerca .nosotros {
+    background-color: #52006a;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#acerca .vision {
+    background-color: #52006a;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#acerca .img-vision {
+    width: 50%;
+    height: auto;
+}
+
+#acerca .img-mision {
+    width: 50%;
+    height: auto;
+}
+
+#acerca .img-nosotros {
+    width: 50%;
+    height: auto;
+}
+
+#acerca .mision {
+    background-color: #52006a;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+/*
+#acerca .subtitulo-c {
+    margin-left: 20px;
+    margin-right: 20px;
+}*/
+
+#acerca {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 1100px) {
+    h1 {
+        font-size: 2em;
+        padding-top: 40px;
+    }
+    .uni-p {
+        font-size: 1.5em;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    //corregir la imagen del landing
+    img {
+        background-repeat: no-repeat;
+    }
+}
+
+#servicios {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#servicios h1 {
+    font-size: 4.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: #52006a;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#servicios .contenedor1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #FFA900;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#servicios .contenedor1 h3 {
+    font-size: 2.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#servicios .contenedor2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 18px;
+    background: linear-gradient(to bottom right, #52006a, #ce103c);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#servicios .contenedor2 img {
+    width: 50%;
+    height: auto;
+}
+
+#servicios p {
+    font-size: 2.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#marcas {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#marcas .titulo-c {
+    font-size: 4.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: #52006a;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#marcas .container1 {
+    height: 300px;
+    text-align: center;
+    /* align the inline(-block) elements horizontally */
+    font: 0/0 a;
+    /* remove the gap between inline(-block) elements */
+}
+
+.container1:before {
+    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+#element {
+    display: inline-block;
+    vertical-align: middle;
+    /* vertical alignment of the inline element */
+    font: 16px/1 Arial sans-serif;
+    /* <-- reset the font property */
+}
+
+#contact {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#contact h1 {
+    font-size: 4.5em;
+    font-family: Brother-Unicy;
+    font-weight: bold;
+    color: #52006a;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contact .content h3 {
+    font-family: Brother-Unicy;
+    font-weight: 600;
+    font-size: 26px;
+    color: #52006a;
+}
+
+.contact .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact .content ul li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 35px;
+}
+
+.contact .content ul li:first-child {
+    margin-top: 35px;
+}
+
+.contact .content ul i {
+    font-family: Brother-Unicy;
+    background: #fff;
+    box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
+    font-size: 24px;
+    margin-right: 15px;
+    color: #52006a;
+    border-radius: 50px;
+}
+
+.contact .content ul h5 {
+    font-family: Brother-Unicy;
+    font-size: 18px;
+    color: #52006a;
+}
+
+.contact .content ul p {
+    font-size: 15px;
+    color: black;
+}
+
+#contact div p {
+    font-size: 20px;
+    font-family: Brother-Unicy;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+.contact .content p:last-child {
+    margin-bottom: 0;
 }

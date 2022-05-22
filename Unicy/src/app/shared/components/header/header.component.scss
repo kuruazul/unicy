@@ -1,0 +1,38 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+mat-toolbar {
+    font-family: Brother;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #52006a;
+    background-color: #FFA900;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    font-family: Brother;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #52006a;
+    background-color: #FFA900;
+    padding-left: 50px;
+}
+
+button {
+    font-family: Brother;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #52006a;
+    background-color: #FFA900;
+}
+
+.color-p {
+    color: #FFA900;
+    background-color: #52006a;
+}
