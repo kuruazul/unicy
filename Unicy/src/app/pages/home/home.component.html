@@ -13,7 +13,9 @@
                 <div class="container">
                     <div class="carousel-caption text-left">
                         <h1>Marketing</h1>
-                        <p class="uni-p">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p class="uni-p">
+                            Expertos en posicionamiento natural en buscadores y en plataformas especificas para destacar.
+                        </p>
                         <p><a class="btn btn-lg" href="#" role="button">Servicios</a></p>
                     </div>
                 </div>
@@ -23,7 +25,7 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>ADS</h1>
-                        <p class="uni-p">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p class="uni-p">Aparece cuando tus clientes estén buscando, navegando en la web o en sus redes sociales.</p>
                         <p><a class="btn btn-lg" href="#" role="button">ADS</a></p>
                     </div>
                 </div>
@@ -33,7 +35,7 @@
                 <div class="container">
                     <div class="carousel-caption text-right">
                         <h1>Paginas Web</h1>
-                        <p class="uni-p">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p class="uni-p">Diseño y construcción de sitios web y tiendas online a la medida según tus objetivos y presupuesto.</p>
                         <p><a class="btn btn-lg" href="#" role="button">WEB</a></p>
                     </div>
                 </div>
@@ -51,8 +53,10 @@
     <section id="acerca">
         <div class="w3-row w3-container w3-padding-16">
             <div class="w3-container half w3-half w3-padding-top">
-                <h2 class="titulo-c">Nosotros</h2>
-                <p class="w3-large subtitulo-c">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque sodales ut etiam sit amet nisl. </p>
+                <h2 class="titulo-c" id="nosotros">{{data}}</h2>
+                <p class="w3-large subtitulo-c" id="nosotrostext">
+                    {{datatext}}
+                </p>
             </div>
 
             <div class="w3-half">
@@ -61,7 +65,7 @@
                         <div class="w3-quarter">
                             <img class="img-vision" src="/assets/img/info/Nosotros.svg" alt="Nosotros">
                         </div>
-                        <div class="w3-threequarter w3-padding-16">
+                        <div class="w3-threequarter w3-padding-16" (click)="cambiarNosotros()">
                             <h2>Nosotros</h2>
                         </div>
                     </div>
@@ -71,7 +75,7 @@
                         <div class="w3-quarter">
                             <img class="img-vision" src="/assets/img/info/Visión.svg" alt="Vision">
                         </div>
-                        <div class="w3-threequarter w3-padding-16">
+                        <div class="w3-threequarter w3-padding-16" (click)="cambiarVision()">
                             <h2>Visión</h2>
                         </div>
                     </div>
@@ -81,8 +85,8 @@
                         <div class="w3-quarter ">
                             <img class="img-vision " src="/assets/img/info/Misión.svg " alt="Mision ">
                         </div>
-                        <div class="w3-threequarter w3-padding-16">
-                            <h2>Misión</h2>
+                        <div class="w3-threequarter w3-padding-16" (click)="cambiarMision()">
+                            <h2>>Misión</h2>
                         </div>
                     </div>
                 </div>
@@ -220,7 +224,7 @@
                             <div>
                                 <h5>CONTACTO</h5>
                                 <p>
-                                    Unicy<br> Tel. <a href="#">984-xxx-xxxx</a><br>WhatsApp <a href="#">984 xxx xxxx</a><br> <a href="mailto:marketing@unicy.com.mx">marketing@unicy.com.mx</a>
+                                    Unicy<br> Tel. <a href="tel:9841667417">984-166-7417</a><br>WhatsApp <a href="https://api.whatsapp.com/send/?phone=529841667417&text=Cotazión Gratis">984-166-7417</a><br> <a href="mailto:marketing@unicy.com.mx">marketing@unicy.com.mx</a>
                                 </p>
                             </div>
                         </li>

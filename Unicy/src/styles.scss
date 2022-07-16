@@ -1,4 +1,9 @@
-html,
+body {
+    background: linear-gradient(to bottom right, #52006a, #ce103c);
+}
+
+
+/*html,
 body {
     height: 100%;
 }
@@ -24,11 +29,14 @@ body {
     margin: 0;
     font-family: Brother, "Helvetica Neue", sans-serif;
 }
+*/
 
 //Morado
 //52006a
 //Naranja
 //FFA900
+
+/*
 .color-p {
     color: #52006a;
     background-color: #FFA900;
@@ -61,9 +69,13 @@ body {
     }
 }
 
+*/
+
 
 /* Style the icon bar links */
 
+
+/*
 .icon-bar a {
     display: block;
     text-align: center;
@@ -73,9 +85,13 @@ body {
     font-size: 20px;
 }
 
+*/
+
 
 /* Style the social media icons with color, if you want */
 
+
+/*
 .icon-bar a:hover {
     background-color: #000;
 }
@@ -98,4 +114,4 @@ body {
 .whatsapp {
     background: #25D366;
     color: white;
-}
+}*/
